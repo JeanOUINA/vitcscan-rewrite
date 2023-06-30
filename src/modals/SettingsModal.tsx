@@ -114,7 +114,7 @@ export default function SettingsModal({
             All data is provided AS-IS and is not guaranteed to be accurate.
             <br />
             <br />
-            If you find any issues, please report them in our <Link href="https://discord.gg/DZK7tyrs" target="_blank" rel="noopener noreferrer">Discord server</Link>.
+            If you find any issues, please report them in our <Link href="https://discord.gg/AgzcqgmjEv" target="_blank" rel="noopener noreferrer">Discord server</Link>.
         </Typography>
         <Divider />
 
