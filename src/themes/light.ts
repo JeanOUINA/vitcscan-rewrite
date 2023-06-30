@@ -1,4 +1,8 @@
-import { createTheme/*, PaletteColorOptions*/ } from "@mui/material";
+import {
+    createTheme,
+    responsiveFontSizes
+    /*, PaletteColorOptions*/
+} from "@mui/material";
 
 /*declare module "@mui/material/styles" {
     interface CustomPalette {
@@ -24,10 +28,13 @@ declare module "@mui/material/CircularProgress" {
 
 const { palette: { augmentColor } } = createTheme()*/
 
-export default createTheme({
+export default responsiveFontSizes(createTheme({
     palette: {
         mode: "light",
+        primary: {
+            main: "#FF6729"
+        }
         // black: augmentColor({ color: { main: "#000000" } }),
         // white: augmentColor({ color: { main: "#ffffff" } }),
     }
-})
+}))

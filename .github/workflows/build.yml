@@ -41,7 +41,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: fe8ac812a2141ac30b230d67ebaa28ad
-          projectName: wawa
+          projectName: vitcscan
           directory: ./dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: main

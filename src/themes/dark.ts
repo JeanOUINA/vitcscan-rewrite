@@ -1,13 +1,21 @@
-import { createTheme } from "@mui/material";
+import {
+    createTheme,
+    responsiveFontSizes
+} from "@mui/material/styles";
 
-//const { palette: { augmentColor } } = createTheme()
-
-export default createTheme({
+const darkTheme = responsiveFontSizes(createTheme({
     palette: {
         mode: "dark",
-        //black: augmentColor({ color: { main: "#000000" } })
+        primary: {
+            main: "#FF6729"
+        },
+        secondary: {
+            main: "#2A2A2A"
+        },
         background: {
-            default: "#000000",
+            default: "#1A1A1A"
         }
     }
-})
+}))
+
+export default darkTheme
